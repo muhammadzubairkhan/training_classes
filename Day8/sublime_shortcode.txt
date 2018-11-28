@@ -1,0 +1,1 @@
+div.container>div.row>(div.col-md-3*4>p.my_para{This is my dummy text}+img.my_responsive_img[src="this_is_img_path"])+h1{This is my heading level 1}+p.my_para{This is my dummy text}+ul>li.active{item $}*10
