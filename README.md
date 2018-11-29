@@ -1,4 +1,4 @@
-# Training Sessions
+# Training Session
 
 Internship training to Web Design Intern
 
