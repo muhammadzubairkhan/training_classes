@@ -11,16 +11,41 @@ Following is the list of content covered during this internship training
 3. [Bootstrap](https://www.youtube.com/watch?v=gqOEoUR5RHg)
 4. Github
 
+Initialize local directory as git repo
 ```
-git init -> Initialize local directory as git repo
-git add -> Add files in your new local repo
-git commit -m "Your message" -> Creating a commit for local repo
-git status -> Check status of local repo (if you see red files, use command 'git add .')
-git log -> To check logs of all the recent commits
-git remote add origin <your_remote_url_of_repo> -> Sets new remote
-git remote -v -> Verifies new remote URL
-git push -u origin -> Pushes all your files of local repo to remote repo added by commiting local files
-git pull -> Fetch and download content from remote repo (updates local repo immediately)
+git init
+```
+Add files in your new local repo
+```
+git add
+```
+Creating a commit for local repo
+```
+git commit -m "your message"
+```
+Check status of local repo (if you see red files, use command 'git add .' as per the need)
+```
+git status
+```
+To check logs of all the recent commits
+```
+git log
+```
+Sets new remote
+```
+git remote add origin <your_remote_url_of_repo> 
+```
+Verifies new remote URL
+```
+git remote -v
+```
+Pushes all your files of local repo to remote repo added by commiting local files
+```
+git push -u origin
+```
+Fetch and download content from remote repo (updates local repo immediately)
+```
+git pull
 ```
 
 5. Code Editor Short Codes (Sublime)
