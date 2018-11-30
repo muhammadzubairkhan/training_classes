@@ -1,0 +1,42 @@
+#main{
+	display: grid;
+}
+a{
+	color: white;
+}
+#horzNav a{
+	text-decoration: none;
+	padding: 0px 0px 0px 20px;
+	color: white;
+}
+.players{
+	height: 150px;
+	width: 200px;
+}
+main{
+	padding: 10px 20px 20px 20px;
+}
+aside{
+	background-color: #EFDECD;
+}
+#uoListTypes{
+	list-style-type: circle;
+}
+#olistTypes{
+	list-style-type: upper-roman;
+}
+#olistIndent{
+	list-style-type: lower-roman;
+}
+#tableData{
+	width: 600px;
+	border: 3px solid black;
+}
+#tableData td, th{
+	border: 1px solid black;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 10px 10px 10px 10px;
+}
