@@ -1,0 +1,11 @@
+title?
+cdn?
+how many classes for navbar? type?
+what does media-object do?
+use of lang='en'
+alt in images?
+check ul code?
+check lilne 74?
+section is never closed?
+table issue with tr and td (3 columns)?
+wrong use of tfoot?
