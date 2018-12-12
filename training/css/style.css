@@ -1,15 +1,116 @@
 .navbar{
 	position: relative;
-	z-index: -1;
+	z-index: 1;
 	padding-left: 0;
 }
-.logo{
-    margin-left: 320px;
-    width: 100px;
-    height: 65px;
-    padding-top: 16px;
+.navbar-brand{
+	font-size: 14px;
+	margin-left: -310px;
 }
-.col-md-3{
+.bg-white {
+    background-color: transparent !important;
+}
+#logo{
+    width: 150px;
+    height: 75px;
+    color: #6c6c6c;
+}
+/*end navbar*/
+.icon{
+	display: grid;
+}
+#icon{
+	margin: 14px;
+}
+.fa-instagram{
+	color: #d1e4e4;
+}
+#second{
+	position: relative;
+    z-index: 1;
+    right: -75px;
+}
+#first{
+	top: -130px;
+    position: relative;
+    z-index: -1;
+}
+.btn-primary{
+	height: 70px;
+    width: 168px;
+    border-radius: 0;
+    background-color: #b4d3d3;
+    font-size: 12px;
+    border: none;
+}
+.button{
+	position: relative;
+    z-index: 1;
+    top: -70px;
+    left: -167px;
+}
+.button > span{
+	width: 120px;
+	height: 120px;
+	background-color: #fff !important;
+	margin-left: -6px;
+	padding-bottom: 26px;
+    padding-right: 35px;
+    padding-top: 23px;
+    padding-left: 24px;
+}
+/*end sec-1st*/
+.inline{
+	text-align: center;
+    font-size: 14px;
+    word-spacing: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+} 
+a{
+	color: #73737a;
+}
+.under-line{
+	color: black;
+}
+/*.section{
+	position: relative;
+	z-index: 0;
+	cursor: pointer;
+}
+.section:hover{
+	position: relative;
+	z-index: 1;
+}*/
+.butt{
+	display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-secondary{
+	letter-spacing: 1px;
+	height: 39px;
+    width: 137px;
+	background-color: #b4d3d3;
+    font-size: 10px;
+    border: none;
+    border-radius: 1.25rem;
+}
+/*end sec-2nd*/
+h1{
+	text-align: center;
+}
+.text-muted{
+	font-size: 16px;
+}
+/*
+.fa-play{
+	margin-left: 10px;
+	background-color: white;
+}
+*/
+/*.col-md-3{
 	max-width: 22%;
 }
 .row{
@@ -18,9 +119,7 @@
 	margin-top: 40px;
 
 }
-.icon{
-	display: grid;
-}
+
 .fa-search{
 	position: relative;
     z-index: 3;
@@ -76,12 +175,12 @@
 	top: 10px;
 } 
 .section{
-	/*width: 250px;
+	width: 250px;
     height: 250px;
     background-size: cover;
     background-position: center;
     display: inline-block;
-    margin: 0;*/
+    margin: 0;
     opacity: 0.3;
 }
 .section:hover {
@@ -139,4 +238,4 @@ h1{
     width: 130px;
     height: 0px;
     float: right;
-}
+}*/
