@@ -104,6 +104,36 @@ h1{
 .text-muted{
 	font-size: 16px;
 }
+/*end sec-3rd*/
+#video{
+	position: relative;
+	z-index: -1;
+}
+.video{
+	position: relative;
+    z-index: 1;
+    top: -220px;
+    left: 15px;
+    color: wheat;
+}
+.images{
+	display: flex;
+    margin-top: -120px;
+}
+.space{
+	margin-right: 45px;
+}
+.z-ind{
+	position: relative;
+	z-index: -1;
+}
+.btn-outline{
+	position: relative;
+	z-index: 1;
+	float: right;
+    margin-top: -288px;
+}
+
 /*
 .fa-play{
 	margin-left: 10px;
