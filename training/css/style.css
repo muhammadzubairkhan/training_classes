@@ -1,3 +1,6 @@
+body{
+	font-family: sans-serif;
+}
 .navbar{
 	position: relative;
 	z-index: 1;
@@ -22,13 +25,20 @@
 #icon{
 	margin: 14px;
 }
-.fa-instagram{
-	color: #d1e4e4;
-}
 #second{
 	position: relative;
     z-index: 1;
     right: -75px;
+}
+.over{
+	position: relative;
+    z-index: 1;
+    top: -311px;
+    float: left;
+    left: -53px;
+}
+.text-muted{
+	font-size: 12px !important;
 }
 #first{
 	top: -130px;
@@ -44,22 +54,25 @@
     border: none;
 }
 .button{
-	position: relative;
+	position: absolute;
     z-index: 1;
-    top: -70px;
-    left: -167px;
+    top: 329px;
+    left: -152px;
 }
 .button > span{
 	width: 120px;
 	height: 120px;
 	background-color: #fff !important;
 	margin-left: -6px;
-	padding-bottom: 26px;
+	padding-bottom: 29px;
     padding-right: 35px;
-    padding-top: 23px;
-    padding-left: 24px;
+    padding-top: 24px;
+    padding-left: 45px;
 }
-/*end sec-1st*/
+#center{
+	margin-left: -20px;
+}
+/*end first-sec*/
 .inline{
 	text-align: center;
     font-size: 14px;
@@ -73,15 +86,32 @@ a{
 .under-line{
 	color: black;
 }
-/*.section{
-	position: relative;
-	z-index: 0;
-	cursor: pointer;
+#padding:hover .overlay{
+  opacity: 1;
 }
-.section:hover{
-	position: relative;
-	z-index: 1;
-}*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2d2f33;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .butt{
 	display: flex;
     justify-content: space-around;
@@ -97,14 +127,14 @@ a{
     border: none;
     border-radius: 1.25rem;
 }
-/*end sec-2nd*/
+/*end second-sec*/
 h1{
 	text-align: center;
 }
 .text-muted{
 	font-size: 16px;
 }
-/*end sec-3rd*/
+/*end third-sec*/
 #video{
 	position: relative;
 	z-index: -1;
@@ -114,7 +144,7 @@ h1{
     z-index: 1;
     top: -220px;
     left: 15px;
-    color: wheat;
+    color: #fff;
 }
 .images{
 	display: flex;
@@ -127,138 +157,29 @@ h1{
 	position: relative;
 	z-index: -1;
 }
-.btn-outline{
-	position: relative;
-	z-index: 1;
-	float: right;
-    margin-top: -288px;
-}
-
-/*
-.fa-play{
-	margin-left: 10px;
-	background-color: white;
-}
-*/
-/*.col-md-3{
-	max-width: 22%;
-}
-.row{
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 40px;
-
-}
-
-.fa-search{
-	position: relative;
-    z-index: 3;
-    right: -435px;
-    float: right;
-}
-.img-para{
-	text-align: center;
-    position: relative;
-    z-index: 1;
-    bottom: -145px;
-}
-.paragraph{
-	display: flex;
-    margin-left: 20px;
-}
-.btn-primary {
-	border-radius: 0px;
-}
-
-.button{
-	position: relative;
-	z-index: 1;
-	left: 78px;
-	border-radius: 0px;
-	top: -39px;
-}
-.button > .fa-play{
-	color: #000;
-	height: 100%;
-}
-
-.button > span{
-	width: 120px;
-	height: 120px;
-	background-color: #fff !important;
-	padding: 14px;
-	margin-left: -6px;
-	padding-bottom: 18px;
-	padding-right: 30px;
-}
-
-.first{
-	float: right;
-    position: relative;
-    z-index: 0;
-    top: -130px;
-}
-.second{
-	float: right;
-	position: relative;
-	z-index: 1;
-	top: 10px;
-} 
-.section{
-	width: 250px;
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    margin: 0;
-    opacity: 0.3;
-}
-.section:hover {
-    opacity: 1;
-}
-
-.btn-outline-secondary{
-	border-radius: 50px;
-
-}
-#top-margin{
-	margin-top: 0px;
-}
-h1{
-	text-align: center;
-	margin-top: 30px;
-}
-#left{
-	margin-left: -4px;
-}
-.display{
-	display: flex;
-}
-#margin{
-    float: right;
-}
-.col-md-8{
-	margin-left: 0px;
-}
-.secondPara{
-	position: relative;
-    z-index: 1;
-    bottom: -135px;
-    left: 12px;
-}
 .btn-outline-warning{
 	position: relative;
-    z-index: 1;
-    left: -100px;
-    top: 11px;
-    height: 44px;
-    color: black;
+	z-index: 1;
+	float: right;
+    margin-top: -286px;
     background-color: white;
-    border: none;
+    border: #fff;
+    color: black;
+    width: 130px;
+    margin-right: -54px;
 }
-.png{
-	width: 130px;
+#second-vid{
+	position: relative;
+	z-index: -1;
 }
+.img-vid{
+	position: relative;
+	z-index: 1;
+	top: -65px;
+    right: -50px;
+    color: white;
+}
+/*end fourth-sec*/
 #foot{
 	text-align: right;
 }
@@ -268,4 +189,23 @@ h1{
     width: 130px;
     height: 0px;
     float: right;
-}*/
+    margin: 23px;
+
+}
+.fa-envelope{
+	margin: 2px;
+}
+.png{
+
+	width: 174px;
+}
+hr{
+	margin-top: 2rem;
+}
+.bor-line{
+	border-left: 4px solid black;
+	margin-left: 252px;
+	word-spacing: 5px;
+
+}
+/*end footer*/
