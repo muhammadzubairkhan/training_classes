@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+.first-container {
+    width: 100%;
+    height: 800px;
+}
+.carousel {
+   
+        position: relative;
+    
+        width: 100%;
+        top: -70px;
+        z-index: -9;
+  
+}
+.navbar {
+    background-color: transparent;
+}
+
+
+.navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 30px !important;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    position: relative;
+    left: 190px;
+}
+
+/* --------------------------------------portfolio ------------------------------ */
+
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .portfolio-container .card {
+    text-align: center;
+    width: 80%;
+    border: none;
+}
+
+.portfolio-container .card-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 36px;
+    padding-bottom: 16px;
+}
+.portfolio-container .card-text {
+    font-size: 20px;
+    
+}
+
+
+.portfolio-container .btn {
+    background-color: #b08c8c;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-top: 36px;
+    margin-bottom: 26px;
+    padding-left: 6px;
+    padding-right: 16px;
+    height: 50px;
+    width: 200px;
+}
+/* ---------------------------------salon image-------------------------------- */
+.salon-image {
+    background-image: url('images/salon-image.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+    margin-left: 16px;
+    margin-right: 16px!important;
+    margin-top: 16px;
+}
+
+/* ---------------------------------hairs------------------------------------ */
+.hair {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.healthy-hairs {
+    height: 600px;
+    width: 600px;
+    background-color: #ccdcd2;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px !important;
+}
+.healthy-hairs h4 {
+    width: 70%;
+    text-align: right;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.healthy-hairs p {
+    width: 70%;
+    text-align: right;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.hair-image {
+    background-image: url('images/hair.jpg');
+    background-size: cover;
+    background-position: center;
+    height:400px ;
+    width: 400px;
+    position: relative;
+    top: 178px;
+    right: 60px;
+}
+
+/* ---------------------------------skin------------------------------------ */
+.skin {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+}
+.healthy-skin {
+    height: 600px;
+    width: 600px;
+    background-color: #ccdcd2;
+    position: relative;
+    top: 146px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px !important;
+}
+.healthy-skin h4 {
+    width: 70%;
+    position: relative;
+    left: 136px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.healthy-skin p {
+    width: 70%;
+    position: relative;
+    left: 136px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.skin-image {
+    background-image: url('images/makeup.jpg');
+    background-size: cover;
+    background-position: center;
+    height:400px ;
+    width: 400px;
+    position: relative;
+    top: 250px;
+    left:  60px;
+    z-index: 9;
+}
+
+/*--------------------------------------------------- our team---------------------------------------------------- */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ccdcd2;
+    height: 100%;
+    padding: 46px;
+}
+.team .card {
+   text-align: center;
+   padding: 16px;
+   background-color: #ccdcd2;
+   height: 500px;
+   margin: 16px;
+   border: none;
+}
+
+.team .card-subtitle {
+    color: black !important;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.team .card-text {
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.team a {
+    color: aliceblue !important;
+}
+.icon button {
+    background: black;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    box-shadow: none;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    transition: transform .2s;
+}
+.icon button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.icon button:focus {
+   
+    outline: none !important;
+    
+ }
+.icon {
+    margin-top: 16px;
+}
+
+/* ----------------------------------------footer-------------------------------------- */
+
+.footer .card {
+    padding-top: 26px;
+    margin-top: 16px;
+    height: 300px;
+    background-color: #ccdcd2;
+    border-radius: 0px;
+    border: none;
+}
+.footer .card-text {
+    padding-top: 16px;
+  
+}
+.footer a {
+    color: white;
+}
+@media only screen and (max-width: 990px) 
+ {
+ 
+ .navbar-light .navbar-nav .nav-link {
+     left: 0px;
+     font-weight: bold;
+ }    
+
+    /* .navbar {
+        background-color: #cdddd3;
+    } */
+
+.healthy-skin {
+    height: 400px;
+    width: 400px;
+}
+.healthy-skin h4 {
+    width: 80%;
+    margin: 0px;
+    left: 73px;
+}
+.healthy-skin p {
+    width: 80%;
+    line-height: normal;
+    position: relative;
+    left: 73px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.skin-image { 
+    height:250px ;
+    width: 250px; 
+    top: 220px;
+    left:  24px;
+    z-index: 9; 
+}
+    .hair-image { 
+        height: 250px;
+        width: 250px;
+        top :150px;
+        right: 40px;
+    }
+    .healthy-hairs {
+        height: 400px;
+        width: 400px;  
+        left: 40px;  
+    }
+    .healthy-hairs h4 {
+        width: 80%;
+        text-align: right;
+        margin: 0px;  
+        font-size: 20px;
+    }
+    .healthy-hairs p {
+        width: 80%;
+        text-align: right;
+        margin-bottom: 0px;
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: normal;
+    }    
+}
+
+
+
+@media only screen and (max-width: 700px ){
+.healthy-skin {
+    height: 360px;
+    width: 360px;
+}
+.healthy-skin p {
+    
+    font-size: 13px;
+}
+.skin-image { 
+    height:220px ;
+    width: 220px; 
+    } 
+.portfolio-container .btn {
+    padding: 8px;
+    height: 40px;
+    width: 140px;
+}
+.portfolio-container .card-text {
+    font-size: 18px;    
+}
+.salon-image {
+    height: 429px;
+}
+.hair-image { 
+    height: 220px;
+    width: 220px;
+    top: 140px;
+    right: 40px;
+}
+.healthy-hairs {
+    height: 360px;
+    width: 360px;
+    left: 40px; 
+}
+.healthy-hairs h4 {
+    width: 80%; 
+    margin: 0px;
+    font-size: 20px;
+}
+.healthy-hairs p {
+    width: 80%;   
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 13px;
+}
+    
+}
+
+@media only screen and (max-width: 580px ) {
+    .healthy-skin {
+        height: 300px;
+        width: 300px;
+        left: -39px;
+    }
+    .healthy-skin p {
+        
+        font-size: 11px;
+    }
+    .skin-image { 
+        height:200px ;
+        width: 200px; 
+        left: 40px;
+        top: 197px;
+        } 
+    .portfolio-container .card-title {  
+        font-size: 26px;
+        
+     }
+    .card-text {
+        font-size: 14px !important;
+    }
+    .portfolio-container .btn {
+        padding: 8px;
+        height: 40px;
+        width: 140px;
+    }
+    
+    .salon-image {
+        height: 350px;
+    }
+    .hair-image { 
+        height: 200px;
+        width: 200px;
+        top: 122px;
+        right: 40px;
+    }
+    .healthy-hairs {
+        height: 300px;
+        width: 300px;
+        left: 40px;
+    }
+    .healthy-hairs h4 {
+        width: 70%;
+   
+        font-size: 18px;
+    }
+    .healthy-hairs p {
+        width: 70%;
+        margin-bottom: 0px;
+        margin-top: 8px;
+        font-size: 11px;
+    }
+        
+    }
+
+  
+@media screen and  (max-width:480px) {
+    .portfolio-container .card-title {
+        font-size: 20px;
+        margin-bottom: 0px;
+     }
+    .card-text {
+        font-size: 14px !important;
+    }
+    .portfolio-container .btn {
+        padding: 8px;
+        height: 40px;
+        width: 140px;
+    }
+    .healthy-skin {
+        height: 260px;
+        width: 260px;
+        left: -30px;
+    }
+    .healthy-skin h4 {
+     
+        left: 50px;
+    }
+    .healthy-skin p {
+        left: 50px;
+        font-size: 9px;
+    }
+    .skin-image { 
+        height: 160px;
+        width: 160px; 
+        left: 30px;
+        top: 197px;
+        } 
+    .salon-image {
+        height: 270px;
+    }
+    .hair-image { 
+        height: 160px;
+        width: 160px;
+        right: 30px;
+    }
+    .healthy-hairs {
+        height: 260px;
+        width: 260px;
+        left: 30px;
+    }
+    .healthy-hairs h4 {
+        width: 70%;
+        font-size: 16px;
+    }
+    .healthy-hairs p {
+        font-size: 9px;    
+    }   
+}
+@media screen and (max-width:360px) {
+    .portfolio-container .card-title {
+        font-size: 18px;
+        margin-bottom: 0px;
+     }
+    .card-text {
+        font-size: 12px !important;
+    }
+    .portfolio-container .btn {
+        padding: 8px;
+        height: 40px;
+        width: 120px;
+        font-size: 16px;
+    }
+    
+    .salon-image {
+        height: 204px;
+    }
+    .hair-image { 
+        height: 120px;
+        width: 120px;
+        right: 20px;
+    }
+    .healthy-hairs {
+        height: 220px;
+        width: 220px;
+        left: 20px;
+    }
+    .healthy-hairs h4 {
+        width: 90%;
+        font-size: 14px;
+    }
+    .healthy-hairs p {
+        font-size: 8px;
+        width: 90%;    
+    }   
+}
+@media (min-width: 360px) and (max-width: 995px)  {
+    
+.carousel {    
+    top: -60px !important;
+} 
+}
