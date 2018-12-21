@@ -10,7 +10,133 @@
     <link rel="stylesheet" href="lib/foundation/css/foundation.min.css">
 </head>
 <body>
-    <!-- Component List -->
+    <div class="callout secondary">
+        <ol>
+        <div class="callout primary">
+            <li><h1>Setup</h1></li>
+            <ol>
+                <li>Global Styles</li>
+                <li>Right-to-Left Support</li>
+                <li>Flexbox Mode</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>JavaScript Utilities</li>
+                <li>Media Queries</li>
+            </ol>
+        </div>
+        <div class="callout success">
+            <li><h1>General</h1></li>
+            <ol>
+              <li>XY Grid</li>  
+              <li>Float Grid</li>  
+              <li>Form</li>  
+            </ol>
+        </div>
+        <div class="callout warning">
+            <li><h1>Utilities</h1></li>
+            <ol>
+               <li>Prototyping Utilities</li> 
+               <li>Flexbox Utilities</li> 
+               <li>Visibility Classes</li> 
+               <li>Float Classes</li> 
+            </ol>
+        </div>
+        <div class="callout alert">
+            <li><h1>Typography</h1></li>
+            <ol>
+                <li>Base Styles</li>
+                <li>Helper Classes</li>
+            </ol>
+        </div>
+        <div class="callout primary">
+            <li><h1>Controls</h1></li>
+            <ol>
+              <li>Button</li>  
+              <li>Button Group</li>  
+              <li>Close Button</li>  
+              <li>Slider</li>  
+              <li>Switch</li>  
+            </ol>
+        </div>
+        <div class="callout success">
+            <li><h1>Navigation</h1></li>
+            <ol>
+                <li>Menu</li>
+                <li>Dropdown Menu</li>
+                <li>Drilldown Menu</li>
+                <li>Accordion Menu</li>
+                <li>Top Bar</li>
+                <li>Responsive Navigation</li>
+                <li>Magellan</li>
+                <li>Pagination</li>
+                <li>Breadcurmbs</li>
+            </ol>
+        </div>
+        <div class="callout warning">
+            <li><h1>Containers</h1></li>
+            <ol>
+               <li>Accordion</li> 
+               <li>Callout</li> 
+               <li>Card</li> 
+               <li>Dropdown</li> 
+               <li>Media Object</li> 
+               <li>Off-canvas</li> 
+               <li>Reveal</li> 
+               <li>Table</li> 
+               <li>Tabs</li> 
+               <li>Responsive Accordion Tabs</li> 
+            </ol>
+        </div>
+        <div class="callout alert">
+            <li><h1>Media</h1></li>
+            <ol>
+                <li>Badge</li>
+                <li>Responsive Embed</li>
+                <li>Label</li>
+                <li>Orbit</li>
+                <li>Progress Bar</li>
+                <li>Thumbnail</li>
+                <li>Tooltip</li>
+            </ol>
+        </div>
+        <div class="callout primary">
+            <li><h1>Plugins</h1></li>
+            <ol>
+                <li>Abide</li>
+                <li>Equalizer</li>
+                <li>Interchange</li>
+                <li>Toggler</li>
+                <li>Smooth Scroll</li>
+                <li>Sticky</li>
+            </ol>
+        </div>
+        <div class="callout success">
+            <li><h1>Sass</h1></li>
+            <ol>
+                <li>Functions</li>
+                <li>Mixins</li>
+            </ol>
+        </div>
+        <div class="callout warning">
+            <li><h1>Libraries</h1></li>
+            <ol>
+                <li>Motion UI</li>
+                <li>Panini</li>
+                <li>Style Sherpa</li>
+            </ol>
+        </div>
+        <div class="callout alert">
+            <li><h1>Older Versions</h1></li>
+            <ol>
+                <li>Foundation 5</li>
+                <li>Foundation 4</li>
+                <li>Foundation 3</li>
+                <li>Foundation 2</li>
+            </ol>
+        </div>
+    </ol>
+    </div>
+ <!--
     <div class="callout primary">
     <h1>Foundation Components</h1>
      <div class="callout success">
@@ -52,156 +178,8 @@
         <p>We've included lots of reusable UI elements that you can easily customize to make your own on each project.
         </p>
      </div>
-    </div>
-    <!-- Navbar -->
-    <div class="callout secondary">
-        <h1>Navbar</h1>
-        <p>A top bar (.top-bar) can have two sections: a left-hand section (.top-bar-left) and a right-hand section (.top-bar-right). On small screens, these sections stack on top of each other.</p>
-        <h4>example</h4>
-        <div class="top-bar" id="example-menu">
-            <div class="top-bar-left">
-                <ul class="dropdown menu" data-dropdown-menu>
-                    <!-- change text and links name -->
-                    <li class="menu-text">Site Title</li>
-                    <li>
-                        <a href="#">One</a>
-                    </li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                </ul>
-            </div>
-            <div class="top-bar-right">
-                <ul class="menu">
-                    <li><input type="search" placeholder="Search"></li>
-                    <li><button type="button" class="button">Search</button></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- Callout -->
-    <div class="callout primary">
-        <h1>Callout</h1>
-        <p>A callout is just an element with a <code>.callout</code> class applied. You can put any kind of content inside.</p>
-        <h4>example</h4>
-        <div class="callout">
-            <h5>This is a callout.</h5>
-            <p>It has an easy to override visual style, and is appropriately subdued.</p>
-            <a href="#">It's dangerous to go alone, take this.</a>
-        </div>
-    </div>
-    <!-- card -->
-    <div class="callout secondary">
-        <h1>Card</h1>
-        <p>A card is just an element with a <code>.card</code> class applied. You can put any kind of content inside. Make sure you wrap your content in a .card-section element in order to achieve the traditional card look.</p>
-        <!-- image has no padding -->
-        <h4>example</h4>
-        <div class="card">
-            <img src="assets/img/generic/rectangle-1.jpg">
-            <div class="card-section">
-                <p>This is a simple card with an image.</p>
-            </div>
-        </div>
-
-        <!-- image has padding -->
-        <div class="card">
-            <div class="card-section">
-                <img src="assets/img/generic/rectangle-1.jpg">
-            </div>
-            <div class="card-section">
-                <p>This is a simple card with an image inside a <code>.card-section</code>.</p>
-            </div>
-        </div>
-    </div>
-    <!-- Media object -->
-    <div class="callout primary">
-        <h1>Media object</h1>
-        <p>Foundation's Media Object will help you create this common repeatable pattern and can be used several different ways. A media object is a container with the class <code>.media-object</code>, and two or three sections with the class <code>.media-object-section</code>.
-        </p>
-        <h4>example</h4>
-        <div class="media-object">
-            <div class="media-object-section">
-                <div>
-                    <img src="assets/img/media-object/avatar-1.jpg">
-                </div>
-            </div>
-            <div class="media-object-section">
-                <h4>Dreams feel real while we're in them.</h4>
-                <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-            </div>
-        </div>
-    </div>
-    <!-- Off canvas -->
-    <div class="callout secondary">
-        <h1>Off canvas</h1>
-        <p>Setting up the Off-canvas only requires two elements! To setup the Off-canvas create an off-canvas container with the class <code>.off-canvas</code> and the attribute <code>data-off-canvas</code>. This is the container that holds your Off-canvas content.</p>
-        <h4>example</h4>
-        <button type="button" class="button" data-toggle="offCanvasLeft1">Open Left</button>
-        <button type="button" class="button" data-toggle="offCanvasRight1">Open Right</button>
-        <button type="button" class="button" data-toggle="offCanvasTop1">Open Top</button>
-        <button type="button" class="button" data-toggle="offCanvasBottom1">Open Bottom</button>
-
-        <div class="cell">
-            <div class="off-canvas-wrapper">
-                <div class="off-canvas position-left" id="offCanvasLeft1" data-off-canvas>
-                    <!-- Your menu or Off-canvas content goes here -->
-                </div>
-                <div class="off-canvas position-right" id="offCanvasRight1" data-off-canvas>
-                    <!-- Your menu or Off-canvas content goes here -->
-                </div>
-                <div class="off-canvas position-top" id="offCanvasTop1" data-off-canvas>
-                    <!-- Your menu or Off-canvas content goes here -->
-                </div>
-                <div class="off-canvas position-bottom" id="offCanvasBottom1" data-off-canvas>
-                    <!-- Your menu or Off-canvas content goes here -->
-                </div>
-                <div class="off-canvas-content" data-off-canvas-content>
-                    <img src="http://placehold.it/300x300" class="" height="" width="" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Tabs -->
-    <div class="callout primary">
-        <h1>Tabs</h1>
-        <p>The tab content container has the class <code>.tabs-content</code>, while each section has the class <code>.tabs-panel</code>. Each content pane also has a unique ID, which is targeted by a link in the tabstrip.</p>
-        <h4>example</h4>
-        <div class="grid-container">
-            <div class="grid-x grid-margin-x">
-                <div class="cell medium-3">
-                    <ul class="vertical tabs" data-tabs id="example-tabs">
-                        <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Tab 1</a></li>
-                        <li class="tabs-title"><a href="#panel2v">Tab 2</a></li>
-                        <li class="tabs-title"><a href="#panel3v">Tab 3</a></li>
-                    </ul>
-                </div>
-                <div class="cell medium-9">
-                    <div class="tabs-content" data-tabs-content="example-tabs">
-                        <div class="tabs-panel is-active" id="panel1v">
-                            <p>One</p>
-                            <p>Check me out! I'm a super cool Tab panel with text content!</p>
-                        </div>
-                        <div class="tabs-panel" id="panel2v">
-                            <p>Two</p>
-                            <img class="thumbnail" src="assets/img/generic/rectangle-7.jpg">
-                        </div>
-                        <div class="tabs-panel" id="panel3v">
-                            <p>Three</p>
-                            <p>Check me out! I'm a super cool Tab panel with text content!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- icon -->
-    <div class="callout secondary">
-        <h1>Icon</h1>
-        <p>An icon can be dropped into a label just fine. We're using the <a href="https://zurb.com/playground/foundation-icon-fonts-3"> Foundation icon font</a> here, but any icon fonts or image-based icons will work fine.
-        </p>
-        <span class="label alert"><i class="fi-x-circle"></i> Alert Label</span>
-        <span class="label warning"><i class="fi-x"></i> Warning Label</span>
-        <span class="label"><i class="fi-widget"></i> Default Label</span>
-    </div>
+    </div> -->
+    
     <!-- script link -->
     <script type="text/javascript" src="lib/jquery/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="lib/foundation/js/vendor/jquery.js"></script>
