@@ -1,0 +1,6 @@
+1. Comments missing
+2. No indentation
+3. Alt attribute missing from img tags. Use this attribute and learn why it is used
+4. Avoid using <br/> tag, instead use margins and paddings in css
+5. Avoid using <hr/> tag, instead use border property in css
+6. Always try to keep files inside folders which are actually been used in your project. Remove all files which have no effect on your design and are there inside folders

@@ -1,0 +1,2 @@
+1. Give proper comments for each section. Comments should say something much bigger than few words.
+2. Remove all extra files from project folder to burden down the load of the project and its size
